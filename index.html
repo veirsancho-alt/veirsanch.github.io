@@ -2,20 +2,163 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8133910028173085" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nature Vision | Photography Portfolio</title>
+    
+    <title>Nature Vision | Professional Photography & Insights</title>
     <style>
-        body { font-family: sans-serif; background-color: #0a0a0a; color: white; text-align: center; }
-        .gallery img { width: 300px; margin: 10px; border-radius: 8px; }
+        :root { --accent: #00d4ff; --bg: #0a0a0a; --card: #161616; }
+        body { font-family: 'Inter', sans-serif; background: var(--bg); color: #eee; line-height: 1.6; margin: 0; }
+        header { height: 80vh; background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1500&q=80'); background-size: cover; background-position: center; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 20px; }
+        h1 { font-size: 3.5rem; color: var(--accent); margin: 0; letter-spacing: 5px; }
+        .container { max-width: 1100px; margin: auto; padding: 40px 20px; }
+        .article-box { background: var(--card); padding: 30px; border-radius: 15px; margin-bottom: 40px; border-bottom: 3px solid var(--accent); }
+        h2 { color: var(--accent); font-size: 1.8rem; }
+        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 15px; margin-top: 30px; }
+        .gallery img { width: 100%; height: 250px; object-fit: cover; border-radius: 10px; transition: 0.3s; filter: grayscale(20%); }
+        .gallery img:hover { transform: scale(1.03); filter: grayscale(0%); border: 2px solid var(--accent); }
+        footer { text-align: center; padding: 50px; background: #000; color: #666; font-size: 0.9rem; }
     </style>
 </head>
 <body>
-    <h1>Nature Vision</h1>
-    <p>Welcome to my professional photography portfolio.</p>
-    <div class="gallery">
-        <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=500&q=60">
-        <img src="https://images.unsplash.com/photo-1501854140801-50d01698950b?auto=format&fit=crop&w=500&q=60">
+
+    <header>
+        <h1>NATURE VISION</h1>
+        <p>Capturing the ephemeral beauty of the natural world through a professional lens.</p>
+    </header>
+
+    <div class="container">
+        <div class="article-box">
+            <h2>The Art of Landscape Composition</h2>
+            <p>Landscape photography is more than just pointing a camera at a mountain. It requires a deep understanding of light, balance, and timing. One of the most critical elements is the 'leading line'—using natural paths like rivers or fallen trees to guide the viewer's eye toward the horizon. In this gallery, we explore how different textures and shadows create a sense of depth that makes the viewer feel like they are standing right there in the wilderness.</p>
+        </div>
+
+        <div class="article-box">
+            <h2>Why Lighting is Everything</h2>
+            <p>During the 'Golden Hour'—the first hour of light after sunrise and the last hour before sunset—the sun is low in the sky, producing a soft, warm glow that eliminates harsh shadows. This lighting is ideal for nature shots as it brings out the vibrant greens of the forest and the deep blues of the ocean. Our collection focuses on these fleeting moments where nature reveals its most dramatic colors.</p>
+        </div>
+
+        <h2>Visual Masterpieces (30 Featured Shots)</h2>
+        <div class="gallery">
+            <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=400&q=60" alt="Mountain">
+            <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=400&q=60" alt="Forest">
+            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=400&q=60" alt="Lake">
+            <img src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=400&q=60" alt="Nature">
+            <img src="https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=400&q=60" alt="Woods">
+            <img src="https://images.unsplash.com/photo-1500623399104-ed149115a55a?auto=format&fit=crop&w=400&q=60" alt="Grass">
+            <img src="https://images.unsplash.com/photo-1433086466831-52c0567ed3a8?auto=format&fit=crop&w=400&q=60" alt="Waterfall">
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60" alt="Valley">
+            <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=400&q=60" alt="Trail">
+            <img src="https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?auto=format&fit=crop&w=400&q=60" alt="Rain">
+            <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=400&q=60" alt="Village">
+            <img src="https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?auto=format&fit=crop&w=400&q=60" alt="Stars">
+            <img src="https://images.unsplash.com/photo-1501854140801-50d01698950b?auto=format&fit=crop&w=400&q=60" alt="Hill">
+            <img src="https://images.unsplash.com/photo-1431440869543-efaf3388c585?auto=format&fit=crop&w=400&q=60" alt="Snow">
+            <img src="https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=400&q=60" alt="Cliff">
+            <img src="https://images.unsplash.com/photo-1445206111751-ad7180345817?auto=format&fit=crop&w=400&q=60" alt="River">
+            <img src="https://images.unsplash.com/photo-1475924156736-516f17a2919f?auto=format&fit=crop&w=400&q=60" alt="Sea">
+            <img src="https://images.unsplash.com/photo-1441034481911-38e97077369b?auto=format&fit=crop&w=400&q=60" alt="Path">
+            <img src="https://images.unsplash.com/photo-1510784722466-f2aa9c52fed6?auto=format&fit=crop&w=400&q=60" alt="Sunset">
+            <img src="https://images.unsplash.com/photo-1490730141103-6cac27aaab94?auto=format&fit=crop&w=400&q=60" alt="Island">
+            <img src="https://images.unsplash.com/photo-1439853949127-fa647821eba0?auto=format&fit=crop&w=400&q=60" alt="Coast">
+            <img src="https://images.unsplash.com/photo-1470075801209-17f9ec0acc6a?auto=format&fit=crop&w=400&q=60" alt="Mist">
+            <img src="https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=400&q=60" alt="Tree">
+            <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=400&q=60" alt="Field">
+            <img src="https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=400&q=60" alt="Nature Wall">
+            <img src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?auto=format&fit=crop&w=400&q=60" alt="Lake Blue">
+            <img src="https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?auto=format&fit=crop&w=400&q=60" alt="Autumn">
+            <img src="https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=400&q=60" alt="Park">
+            <img src="https://images.unsplash.com/photo-1508739773434-c26b3d09e071?auto=format&fit=crop&w=400&q=60" alt="Peak">
+            <img src="https://images.unsplash.com/photo-1440778303588-435521a205bc?auto=format&fit=crop&w=400&q=60" alt="Canyon">
+        </div>
     </div>
+
+    <footer>
+        <p>&copy; 2026 Nature Vision Portfolio | Managed by Adnan</p>
+        <p>Privacy Policy | Terms of Service | Contact Us</p>
+    </footer>
+
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature Vision | Ultimate Photography Guide</title>
+    <style>
+        :root { --primary: #00d4ff; --bg: #050505; --text: #f0f0f0; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: var(--bg); color: var(--text); line-height: 1.8; margin: 0; }
+        header { height: 70vh; background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1500&q=80'); background-size: cover; background-position: center; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; }
+        .nav { background: #111; padding: 15px; text-align: center; position: sticky; top: 0; z-index: 1000; border-bottom: 1px solid var(--primary); }
+        .nav a { color: white; text-decoration: none; margin: 0 20px; font-weight: bold; font-size: 0.9rem; text-transform: uppercase; }
+        .container { max-width: 1200px; margin: auto; padding: 40px 20px; }
+        .pro-article { background: #111; padding: 35px; border-radius: 20px; margin-bottom: 50px; border-left: 5px solid var(--primary); box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+        h2 { color: var(--primary); font-size: 2.2rem; margin-bottom: 25px; }
+        .info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-bottom: 50px; }
+        .info-card { background: #1a1a1a; padding: 25px; border-radius: 15px; border: 1px solid #333; }
+        .info-card h3 { color: var(--primary); margin-top: 0; }
+        .gallery-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 15px; }
+        .gallery-grid img { width: 100%; height: 250px; object-fit: cover; border-radius: 12px; transition: 0.4s; }
+        .gallery-grid img:hover { transform: translateY(-10px); box-shadow: 0 10px 20px var(--primary); }
+        footer { background: #000; padding: 60px 20px; text-align: center; color: #777; border-top: 1px solid #222; }
+    </style>
+</head>
+<body>
+
+    <div class="nav">
+        <a href="#articles">Articles</a>
+        <a href="#tips">Photography Tips</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#privacy">Privacy</a>
+    </div>
+
+    <header>
+        <h1 style="font-size: 4rem; margin: 0; color: var(--primary);">NATURE VISION</h1>
+        <p style="font-size: 1.2rem; letter-spacing: 2px;">The Professional Lens into the Wild</p>
+    </header>
+
+    <div class="container">
+        <section id="articles">
+            <div class="pro-article">
+                <h2>Mastering the Exposure Triangle in Nature</h2>
+                <p>To capture the perfect nature shot, a photographer must master the three pillars of exposure: ISO, Aperture, and Shutter Speed. In landscape photography, we often aim for a deep depth of field, which means using a higher f-stop (like f/11 or f/16). This ensures that everything from the foreground flower to the distant mountain is in sharp focus. However, this reduces the light hitting the sensor, requiring a slower shutter speed and, consequently, a sturdy tripod to avoid motion blur. Understanding how these elements interact is the first step toward professional-grade imagery.</p>
+                <p>When shooting in dense forests or under cloudy skies, ISO management becomes crucial. While we prefer ISO 100 for maximum clarity, sometimes boosting it to 400 or 800 is necessary to capture moving elements like leaves in the wind or flowing water without losing detail.</p>
+            </div>
+        </section>
+
+        <section id="tips" class="info-grid">
+            <div class="info-card">
+                <h3>Post-Processing Ethics</h3>
+                <p>In the digital age, editing is part of the creative process. However, in nature photography, we strive for 'Enhanced Reality' rather than 'Artificial Creation'. Using tools like Adobe Lightroom to recover highlights in the clouds or shadows in the trees is standard practice to match what the human eye saw at the scene.</p>
+            </div>
+            <div class="info-card">
+                <h3>Gear Selection for Hikers</h3>
+                <p>Weight is the enemy of the outdoor photographer. Choosing a mirrorless system over a traditional DSLR can save kilograms of weight during long treks. Wide-angle lenses (16-35mm) are essential for vast vistas, while a 70-200mm telephoto lens is perfect for isolating distant peaks or wildlife.</p>
+            </div>
+            <div class="info-card">
+                <h3>Respecting the Environment</h3>
+                <p>The number one rule of any nature photographer is 'Leave No Trace'. We capture memories and leave only footprints. Staying on marked trails and respecting wildlife boundaries ensures that these beautiful locations remain pristine for future generations of artists.</p>
+            </div>
+        </section>
+
+        <h2 id="gallery">Global Landscape Collection (45 Featured)</h2>
+        <div class="gallery-grid">
+            <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500" alt="Landscape">
+            <img src="
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature Vision | Moving Moments & Landscape Art</title>
+    <style>
+        :root { --primary: #00d4ff; --bg: #080808; --card-bg: #111; }
+        * { box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; background-color: var(--bg); color: white; line-height: 1.6; margin: 0; }
+        .hero { height: 60vh; background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=1200&q=80'); background-size: cover; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; border-bottom: 2px solid var(--primary); }
+        .container { max-width: 1200px; margin: auto; padding: 20px; }
+        .gif-section { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 40px; }
+        .gif-card { background: var(--card-bg); padding: 15px; border-radius: 15px; border-bottom: 3px solid var(--primary); }
+        .gif-card img { width: 100%; border-radius: 10px; height: 250px; object-fit: cover; transition: 0.5s; cursor: pointer; }
+        .gif-card img:hover { transform: scale(1.1); filter: brightness(1.2); }
+        .article-long { text-align: center; padding: 40px; background: #000; border-top: 1px solid #222; margin-top:
